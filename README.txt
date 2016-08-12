@@ -1,11 +1,11 @@
-=== Plugin Name ===
+=== BuddyPress friends to contacts ===
 Contributors: mahype, awesome-ug
 Tags: buddypress, contacts, friends
 Requires at least: 3.3.1
 Tested up to: 4.6
 Stable tag: 1.0.0
 
-Change all textstrings in BuddyPress from "friends" to "contacts".
+Changes all textstrings in BuddyPress from "friends" to "contacts".
 
 == Description ==
 
