@@ -4,6 +4,9 @@
 ## IDEs
 ############
 
+.idea
+.idea/
+.idea/*
 *.pydevproject
 .project
 .metadata
@@ -44,9 +47,6 @@ tmp/
 *.cpr
 *.orig
 *.php.in
-.idea
-.idea/
-.idea/*
 .sass-cache/*
 temp/
 ._*
