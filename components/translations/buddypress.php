@@ -36,7 +36,7 @@ class BPFTC_Translate_BuddyPress extends BPCTF_Translations {
 			'All of your friends already belong to this group.'                                                                                       => __( 'All of your contacts already belong to this group.', 'buddypress-friends-to-contacts' ),
 			'Cancel Friendship Request'                                                                                                               => __( 'Cancel Contact Request', 'buddypress-friends-to-contacts' ),
 			'Counting the number of friends for each user&hellip; %s'                                                                                 => __( 'Counting the number of contacts for each user&hellip; %s', 'buddypress-friends-to-contacts' ),
-			'Default friends to show:'                                                                                                                => __( 'Default friends to show:', 'buddypress-friends-to-contacts' ),
+			'Default friends to show:'                                                                                                                => __( 'Default contacts to show:', 'buddypress-friends-to-contacts' ),
 			'Friends'                                                                                                                                 => __( 'Contacts', 'buddypress-friends-to-contacts' ),
 			'Friends %s'                                                                                                                              => __( 'Contacts %s', 'buddypress-friends-to-contacts' ),
 			'Friends <span class=\"%s\">%s</span>'                                                                                                    => __( 'Contacts <span class=\"%s\">%s</span>', 'buddypress-friends-to-contacts' ),
@@ -54,14 +54,14 @@ class BPFTC_Translate_BuddyPress extends BPCTF_Translations {
 			'Repair total friends count for each member.'                                                                                             => __( 'Repair total contact count for each member.', 'buddypress-friends-to-contacts' ),
 			'Search Friends...'                                                                                                                       => __( 'Search Contacts...', 'buddypress-friends-to-contacts' ),
 			'Select friends to invite.'                                                                                                               => __( 'Select contacts to invite.', 'buddypress-friends-to-contacts' ),
-			'Select people to invite from your friends list.'                                                                                         => __( 'Select people to invite from your friends list.', 'buddypress-friends-to-contacts' ),
+			'Select people to invite from your friends list.'                                                                                         => __( 'Select people to invite from your contacts list.', 'buddypress-friends-to-contacts' ),
 			'The activity of my friends only.'                                                                                                        => __( 'The activity of my contacts only.', 'buddypress-friends-to-contacts' ),
 			'Viewing 1 member with friends'                                                                                                           => __( 'Viewing 1 member with contacts', 'buddypress-friends-to-contacts' ),
 			'Viewing %1$s - %2$s of %3$s member with friends'                                                                                         => __( 'Viewing %1$s - %2$s of %3$s member with contacts', 'buddypress-friends-to-contacts' ),
 			'Viewing %1$s - %2$s of %3$s members with friends'                                                                                        => __( 'Viewing %1$s - %2$s of %3$s members with contacts', 'buddypress-friends-to-contacts' ),
 			'You are already friends with this user'                                                                                                  => __( 'You are already in contact with this user', 'buddypress-friends-to-contacts' ),
 			'You already have a pending friendship request with this user'                                                                            => __( 'You already have a pending contact request with this user', 'buddypress-friends-to-contacts' ),
-			'You are not yet friends with this user'                                                                                                  => __( 'You are not yet in relationship with this user', 'buddypress-friends-to-contacts' ),
+			'You are not yet friends with this user'                                                                                                  => __( 'You are not yet in contact with this user', 'buddypress-friends-to-contacts' ),
 			'You have a friendship request from %s'                                                                                                   => __( 'You have a contact request from %s', 'buddypress-friends-to-contacts' ),
 			'You have a pending friendship request with this user'                                                                                    => __( 'You have a pending contact request with this user', 'buddypress-friends-to-contacts' ),
 			'You have no pending friendship requests.'                                                                                                => __( 'You have no pending friendship requests.', 'buddypress-friends-to-contacts' ),
@@ -101,14 +101,42 @@ To accept this request and manage all of your pending requests, visit: <a href="
 			'[{{{site.name}}}] New friendship request from {{initiator.name}}'                                                                        => __( '[{{{site.name}}}] New contact request from {{initiator.name}}', 'buddypress-friends-to-contacts' ),
 		);
 
+		$translations[ 'Friends screen sub nav' ] = array(
+			'Friendships' => _x( 'Contacts', 'Friends screen sub nav', 'buddypress-friends-to-contacts' )
+		);
+
+		$translations[ 'Friends screen page <title>' ] = array(
+			'Friend Connections' => _x( 'Relationships', 'Friends screen page <title>', 'buddypress-friends-to-contacts' ),
+		);
+
+		$translations[ 'Friend settings on notification settings page' ] = array(
+			'Friends' => _x( 'Contacts', 'Friend settings on notification settings page', 'buddypress-friends-to-contacts' ),
+			'A member sends you a friendship request' => _x( 'A member sends you a contact request', 'Friend settings on notification settings page', 'buddypress-friends-to-contacts' ),
+			'A member accepts your friendship request' => _x( 'A member accepts your contact request', 'Friend settings on notification settings page', 'buddypress-friends-to-contacts' ),
+		);
+
 		$translations[ 'My Account Friends menu' ] = array(
-			'Friends'    => _x( 'Friends', 'My Account Friends menu', 'buddypress-friends-to-contacts' ),
-			'Friends %s' => _x( 'Friends %s', 'My Account Friends menu', 'buddypress-friends-to-contacts' ),
+			'Friends'    => _x( 'Contacts', 'My Account Friends menu', 'buddypress-friends-to-contacts' ),
+			'Friends %s' => _x( 'Contacts %s', 'My Account Friends menu', 'buddypress-friends-to-contacts' ),
 		);
 
 		$translations[ 'My Account Friends menu sub nav' ] = array(
-			'Friendships' => _x( 'Friendships', 'My Account Friends menu sub nav', 'buddypress-friends-to-contacts' )
+			'Friendships' => _x( 'Contacts', 'My Account Friends menu sub nav', 'buddypress-friends-to-contacts' )
 		);
+
+		$translations[ 'My Account Activity sub nav' ] = array(
+			'Friends'    => _x( 'Contacts', 'My Account Activity sub nav', 'buddypress-friends-to-contacts' ),
+		);
+
+		$translations[ 'Profile activity screen sub nav' ] = array(
+			'Friends'    => _x( 'Contacts', 'Profile activity screen sub nav', 'buddypress-friends-to-contacts' ),
+		);
+
+		$translations[ 'Visibility level setting' ] = array(
+			'My Friends' => _x( 'My Contacts', 'Visibility level setting', 'buddypress-friends-to-contacts' )
+		);
+
+
 
 		return $translations;
 	}

@@ -1,0 +1,373 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-08-12 21:18+0200\n"
+"PO-Revision-Date: 2016-08-12 21:31+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_x:1,2c;_ex:1,2c;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: components/translations/buddypress.php:19
+msgid "BuddyPress Translations"
+msgstr "BuddyPress Übersetzungen"
+
+#: components/translations/buddypress.php:30
+msgid " Contact could not be requested."
+msgstr "Kontakt konnte nicht angefragt werden."
+
+#: components/translations/buddypress.php:31
+#, php-format
+msgid "Activity feed for %s's contacts."
+msgstr "Aktivitätsfeed von %ss Kontakten."
+
+#: components/translations/buddypress.php:32
+msgid "A member accepts your contact request"
+msgstr "Ein Mitglied akzeptiert deine Kontaktanfrage"
+
+#: components/translations/buddypress.php:33
+msgid "A member has sent a contact request to the recipient."
+msgstr "Ein Mitglied hat eine Kontaktanfrage an den Empfänger gesendet."
+
+#: components/translations/buddypress.php:34
+msgid "A member sends you a contact request"
+msgstr "Ein Mitglied schickt dir eine Kontaktanfrage"
+
+#: components/translations/buddypress.php:35
+msgid "Add Contact"
+msgstr "Kontakt hinzufügen"
+
+#: components/translations/buddypress.php:36
+msgid "All of your contacts already belong to this group."
+msgstr "Alle deine Kontakte gehören bereits zu dieser Gruppe"
+
+#: components/translations/buddypress.php:37
+msgid "Cancel Contact Request"
+msgstr "Kontaktanfrage abbrechen"
+
+#: components/translations/buddypress.php:38
+#, php-format
+msgid "Counting the number of contacts for each user&hellip; %s"
+msgstr "Zähle Kontakte für jeden Benutzer&hellip; %s"
+
+#: components/translations/buddypress.php:39
+msgid "Default contacts to show:"
+msgstr "Standard anzuzeigende Kontakte:"
+
+#: components/translations/buddypress.php:40
+msgid "Contacts"
+msgstr "Kontakte"
+
+#: components/translations/buddypress.php:41
+#, php-format
+msgid "Contacts %s"
+msgstr "Kontakte %s"
+
+#: components/translations/buddypress.php:42
+#, php-format
+msgid "Contacts <span class=\\\"%s\\\">%s</span>"
+msgstr "Kontakte <span class=\\\"%s\\\">%s</span>"
+
+#: components/translations/buddypress.php:43
+msgid "Relationships"
+msgstr "Beziehungen"
+
+#: components/translations/buddypress.php:44
+msgid "Group invitations can only be extended to contacts."
+msgstr "Gruppeneinladungen können nur an Kontakte versendet werden"
+
+#: components/translations/buddypress.php:45
+msgid "Max contacts to show:"
+msgstr "Maximal anzuzeigende Kontakte:"
+
+#: components/translations/buddypress.php:46
+msgid "My Contacts"
+msgstr "Meine Kontakte"
+
+#: components/translations/buddypress.php:47
+#, php-format
+msgid "My Contacts %s"
+msgstr "Meine Kontakte %s"
+
+#: components/translations/buddypress.php:48
+#, php-format
+msgid "My Contacts <span>%s</span>"
+msgstr "Meine Kontakte <span>%s</span>"
+
+#: components/translations/buddypress.php:49
+msgid "New relationship created"
+msgstr "Neue Beziehung erstellt"
+
+#: components/translations/buddypress.php:50
+msgid "New relationship"
+msgstr "Neue Beziehung"
+
+#: components/translations/buddypress.php:51
+msgid ""
+"Once you've made some contacts, you'll be able to invite those members to "
+"this group."
+msgstr ""
+"Wenn du einige Kontakte hinzugefügt hast, kannst du diese Mitglieder in "
+"diese Gruppe einladen"
+
+#: components/translations/buddypress.php:52
+msgid ""
+"Once you have built up contact connections you will be able to invite others "
+"to your group."
+msgstr ""
+"Sobald du ein paar Kontakte hinzugefügt hast, kannst du andere in deine "
+"Gruppe einladen."
+
+#: components/translations/buddypress.php:53
+msgid "Recipient has had a contact request accepted by a member."
+msgstr "Ein Empfänger hatte eine Kontaktanfrage eines Mitglieds akzeptiert."
+
+#: components/translations/buddypress.php:54
+msgid "Repair total contact count for each member."
+msgstr "Repariere die Anzahl der Kontakte für jedes Mitlied"
+
+#: components/translations/buddypress.php:55
+msgid "Search Contacts..."
+msgstr "Kontakte durchsuchen..."
+
+#: components/translations/buddypress.php:56
+msgid "Select contacts to invite."
+msgstr "Wähle Kontakte aus um sie einzuladen."
+
+#: components/translations/buddypress.php:57
+msgid "Select people to invite from your contacts list."
+msgstr "Laden Sie Leute aus deiner Kontaktliste ein."
+
+#: components/translations/buddypress.php:58
+msgid "The activity of my contacts only."
+msgstr "Nur die Aktivitäten meiner Kontakte."
+
+#: components/translations/buddypress.php:59
+msgid "Viewing 1 member with contacts"
+msgstr "Angezeigt wird 1 Mitglied mit Kontakten"
+
+#: components/translations/buddypress.php:60
+#, php-format
+msgid "Viewing %1$s - %2$s of %3$s member with contacts"
+msgstr "Angezeigt wird %1$s - %2$s von %3$s Mitglied mit Kontakten"
+
+#: components/translations/buddypress.php:61
+#, php-format
+msgid "Viewing %1$s - %2$s of %3$s members with contacts"
+msgstr "Angezeigt wird %1$s - %2$s von %3$s Mitgliedern mit Kontakten"
+
+#: components/translations/buddypress.php:62
+msgid "You are already in contact with this user"
+msgstr "Du bist bereits in Kontakt mit diesem Benutzer"
+
+#: components/translations/buddypress.php:63
+msgid "You already have a pending contact request with this user"
+msgstr ""
+"Du hast schon eine Anfrage für einen Kontakt an diesen Benutzer gestellt"
+
+#: components/translations/buddypress.php:64
+msgid "You are not yet in relationship with this user"
+msgstr "Du bist bisher kein Kontakt von diesem Benutzer"
+
+#: components/translations/buddypress.php:65
+#, php-format
+msgid "You have a contact request from %s"
+msgstr "Du hast eine Kontaktanfrage von %s"
+
+#: components/translations/buddypress.php:66
+msgid "You have a pending contact request with this user"
+msgstr "Du hast schon eine ausstehende Kontaktanfrage für diesen Benutzer"
+
+#: components/translations/buddypress.php:67
+msgid "You have no pending friendship requests."
+msgstr "Du hast keine offenen Kontaktanfragen."
+
+#: components/translations/buddypress.php:68
+#, php-format
+msgid "You have %d pending friendship requests"
+msgstr "Du hast %d offene Kontaktanfragen"
+
+#: components/translations/buddypress.php:69
+msgid "You haven't added any contact connections yet."
+msgstr "Du hast noch keine Kontakte hinzugefügt."
+
+#: components/translations/buddypress.php:70
+#, php-format
+msgid "%1$s and %2$s are now contacts"
+msgstr "%1$s und %2$s sind jetzt Kontakte"
+
+#: components/translations/buddypress.php:71
+#, php-format
+msgid "%d Contact"
+msgstr "%d Kontakt"
+
+#: components/translations/buddypress.php:72
+#, php-format
+msgid "%d Contacts"
+msgstr "%d Kontakte"
+
+#: components/translations/buddypress.php:73
+#, php-format
+msgid "%d friends accepted your friendship requests"
+msgstr "%d Kontakte haben deine Kontaktanfrage angenommen"
+
+#: components/translations/buddypress.php:74
+#, php-format
+msgid "%s contact"
+msgstr "%s Kontakt"
+
+#: components/translations/buddypress.php:75
+#, php-format
+msgid "%s accepted your contact request"
+msgstr "%s akzeptierte Deine Kontaktanfrage"
+
+#: components/translations/buddypress.php:76
+#, php-format
+msgid "%s contacts"
+msgstr "%s Kontakte"
+
+#: components/translations/buddypress.php:77
+#, php-format
+msgid "%s hasn't created any contact connections yet."
+msgstr "%s hat noch keine Kontakte hinzugefügt."
+
+#: components/translations/buddypress.php:78
+#, php-format
+msgid "%s's Friends"
+msgstr "%ss Kontakte"
+
+#: components/translations/buddypress.php:79
+#, php-format
+msgid "%s's Contacts"
+msgstr "%ss Kontakte"
+
+#: components/translations/buddypress.php:84
+msgid ""
+"{{initiator.name}} wants to add you as a contact.\\n\n"
+"\\n\n"
+"To accept this request and manage all of your pending requests, visit: "
+"{{{friend-requests.url}}}\\n\n"
+"\\n\n"
+"To view {{initiator.name}}'s profile, visit: {{{initiator.url}}}"
+msgstr ""
+"{{initiator.name}} möchte dich als Kontakt hinzufügen.\n"
+"\n"
+"Um die Kontaktanfrage zu akzeptieren und alle ausstehenden Anfragen zu "
+"verwalten, besuche bitte: {{{friend-requests.url}}}\n"
+"\n"
+"Um {{initiator.name}}'s Profil anzusehen, besuche bitte: {{{initiator.url}}}"
+
+#: components/translations/buddypress.php:89
+msgid "[{{{site.name}}}] {{friend.name}} accepted your contact request"
+msgstr "[{{{site.name}}}] {{friend.name}} akzeptierte deine Kontaktanfrage"
+
+#: components/translations/buddypress.php:90
+msgid ""
+"<a href=\"{{{friendship.url}}}\">{{friend.name}}</a> accepted your contact "
+"request."
+msgstr ""
+"<a href=\"{{{friendship.url}}}\">{{friend.name}}</a> akzeptierte deine "
+"Kontaktanfrage."
+
+#: components/translations/buddypress.php:93
+msgid ""
+"{{friend.name}} accepted your contact request.\\n\n"
+"\\n\n"
+"To learn more about them, visit their profile: {{{friendship.url}}}"
+msgstr ""
+"{{friend.name}} akzeptierte deine Kontaktanfrage.\n"
+"\n"
+"Um mehr über ihn zu erfahren, besuche sein Profil: {{{friendship.url}}}"
+
+#: components/translations/buddypress.php:98
+msgid ""
+"<a href=\"{{{initiator.url}}}\">{{initiator.name}}</a> wants to add you as a "
+"contact.\\n\n"
+"\\n\n"
+"To accept this request and manage all of your pending requests, visit: <a "
+"href=\"{{{friend-requests.url}}}\">{{{friend-requests.url}}}</a>"
+msgstr ""
+"<a href=\"{{{initiator.url}}}\">{{initiator.name}}</a> möchte dich als "
+"Kontakt hinzufügen.\n"
+"\n"
+"Um die Freundschaftsanfrage zu akzeptieren und alle ausstehenden Anfragen zu "
+"verwalten, besuche bitte: <a href=\"{{{friend-requests.url}}}\">{{{friend-"
+"requests.url}}}</a>"
+
+#: components/translations/buddypress.php:101
+msgid "[{{{site.name}}}] New contact request from {{initiator.name}}"
+msgstr "[{{{site.name}}}] neue Kontaktanfrage von {{initiator.name}}"
+
+#: components/translations/buddypress.php:105
+msgctxt "Friends screen sub nav"
+msgid "Contacts"
+msgstr "Kontakte"
+
+#: components/translations/buddypress.php:109
+msgctxt "Friends screen page <title>"
+msgid "Relationships"
+msgstr "Beziehungen"
+
+#: components/translations/buddypress.php:113
+msgctxt "Friend settings on notification settings page"
+msgid "Contacts"
+msgstr "Kontakte"
+
+#: components/translations/buddypress.php:114
+msgctxt "Friend settings on notification settings page"
+msgid "A member sends you a contact request"
+msgstr "Ein Mitglied schickt dir eine Kontaktanfrage"
+
+#: components/translations/buddypress.php:115
+msgctxt "Friend settings on notification settings page"
+msgid "A member accepts your contact request"
+msgstr "Ein Mitglied akzeptiert deine Kontaktanfrage"
+
+#: components/translations/buddypress.php:119
+msgctxt "My Account Friends menu"
+msgid "Contacts"
+msgstr "Kontakte"
+
+#: components/translations/buddypress.php:120
+#, php-format
+msgctxt "My Account Friends menu"
+msgid "Contacts %s"
+msgstr "Kontakte %s"
+
+#: components/translations/buddypress.php:124
+msgctxt "My Account Friends menu sub nav"
+msgid "Contacts"
+msgstr "Kontakte"
+
+#: components/translations/buddypress.php:128
+msgctxt "My Account Activity sub nav"
+msgid "Contacts"
+msgstr "Kontakte"
+
+#: components/translations/buddypress.php:132
+msgctxt "Profile activity screen sub nav"
+msgid "Contacts"
+msgstr "Kontakte"
+
+#: components/translations/buddypress.php:136
+msgctxt "Visibility level setting"
+msgid "My Contacts"
+msgstr "Meine Kontakte"
+
+#: components/translations/component.php:43
+msgid "Translations"
+msgstr "Übersetzungen"
+
+#: init.php:175
+msgid "BuddyPress have to be installed."
+msgstr "BuddyPress muss installiert sein."
+
+#~ msgid "Select people to invite from your friends list."
+#~ msgstr "Lade Leute aus deiner Freundesliste ein."

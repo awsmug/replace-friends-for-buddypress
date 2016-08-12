@@ -42,36 +42,72 @@ abstract class BPCTF_Translations {
     }
 
     /**
-     * Translating
+     * Translate
      *
      * @param string $translation
      * @param string $text
      * @param string $textdomain
      *
      * @return string $translation
+     *
+     * @since 1.0.0
      */
     public function translate( $translation, $text, $domain ) {
         if( $domain !== $this->textdomain ) {
             return $translation;
         }
 
-        FB::log( $translation );
-        FB::log( $text );
-        FB::log( $domain );
-        FB::log( '========================' );
-
-        if ( array_key_exists( $text, $this->translations[ 'gettext' ] ) ) {
-            return $this->translations[ 'gettext' ][ $text ];
+        if ( ! array_key_exists( $text, $this->translations[ 'gettext' ] ) ) {
+	        return $translation;
         }
 
-        return $translation;
+	    return $this->translations[ 'gettext' ][ $text ];
+
+    }
+
+	/**
+	 * Translate with context
+	 *
+	 * @param string $translation
+	 * @param string $text
+	 * @param string $context
+	 * @param string $domain
+	 *
+	 * @return string $translation
+	 *
+	 * @since 1.0.0
+	 */
+    public function translate_with_context( $translation, $text, $context, $domain ) {
+	    if( $domain !== $this->textdomain ) {
+		    return $translation;
+	    }
+
+	    if ( ! array_key_exists( $context, $this->translations ) ) {
+		    return $translation;
+	    }
+	    FB::log( '====================' );
+
+	    FB::log( $text );
+	    FB::log( $context );
+
+	    if ( ! array_key_exists( $text, $this->translations[ $context ] ) ) {
+		    return $translation;
+	    }
+
+	    FB::log( $this->translations[ $context ][ $text ] );
+
+
+	    return $this->translations[ $context ][ $text ];
     }
 
     /**
      * Initializing Base Hooks for all Components
+     *
+     * @since 1.0.0
      */
     private function init_base_hooks() {
         add_filter( 'gettext', array( $this, 'translate' ), 10, 3 );
+        add_filter( 'gettext_with_context', array( $this, 'translate_with_context' ), 10, 4 );
     }
 }
 
