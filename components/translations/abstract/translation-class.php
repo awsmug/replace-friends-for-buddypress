@@ -44,21 +44,27 @@ abstract class BPCTF_Translations {
     /**
      * Translating
      *
+     * @param string $translation
      * @param string $text
      * @param string $textdomain
      *
-     * @return string mixed
+     * @return string $translation
      */
-    public function translate( $translations, $text, $domain ) {
+    public function translate( $translation, $text, $domain ) {
         if( $domain !== $this->textdomain ) {
-            return $translations;
+            return $translation;
         }
 
-        if ( array_key_exists( $text, $this->translations ) ) {
-            return $this->translations[ $text ];
+        FB::log( $translation );
+        FB::log( $text );
+        FB::log( $domain );
+        FB::log( '========================' );
+
+        if ( array_key_exists( $text, $this->translations[ 'gettext' ] ) ) {
+            return $this->translations[ 'gettext' ][ $text ];
         }
 
-        return $translations;
+        return $translation;
     }
 
     /**
