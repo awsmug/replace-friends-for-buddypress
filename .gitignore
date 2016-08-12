@@ -44,6 +44,8 @@ tmp/
 *.cpr
 *.orig
 *.php.in
+.idea
+.idea/
 .idea/*
 .sass-cache/*
 temp/
