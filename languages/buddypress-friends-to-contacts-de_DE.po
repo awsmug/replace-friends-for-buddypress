@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-08-12 21:18+0200\n"
-"PO-Revision-Date: 2016-08-12 21:31+0200\n"
+"PO-Revision-Date: 2016-08-12 21:37+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -143,7 +143,7 @@ msgstr "Wähle Kontakte aus um sie einzuladen."
 
 #: components/translations/buddypress.php:57
 msgid "Select people to invite from your contacts list."
-msgstr "Laden Sie Leute aus deiner Kontaktliste ein."
+msgstr "Lade Leute aus deiner Kontaktliste ein."
 
 #: components/translations/buddypress.php:58
 msgid "The activity of my contacts only."
@@ -297,7 +297,7 @@ msgstr ""
 "<a href=\"{{{initiator.url}}}\">{{initiator.name}}</a> möchte dich als "
 "Kontakt hinzufügen.\n"
 "\n"
-"Um die Freundschaftsanfrage zu akzeptieren und alle ausstehenden Anfragen zu "
+"Um die Kontaktanfrage zu akzeptieren und alle ausstehenden Anfragen zu "
 "verwalten, besuche bitte: <a href=\"{{{friend-requests.url}}}\">{{{friend-"
 "requests.url}}}</a>"
 
