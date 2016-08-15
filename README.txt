@@ -9,14 +9,14 @@ Changes all textstrings in BuddyPress from "friends" to "contacts".
 
 == Description ==
 
-Sometimes you need a bit more serious network and people in BuddyPress should not be friends but contacts.
-This plugin helps you in that case and changes all textstrings in BuddyPress from "friends" to "contacts".
+BuddyPress is based on "friends", but in a lot of networks it's needed to have a bit more serious word for it. This plugin replaces all textstrings with "friends" and replaces it with "contact".
+
 
 You need "BuddyPress friends to contacts" in your Language?
 
-*   Translate this plugin direct in the WordPress repository
-*   Send us your translation files
-*   Send us missing translations to our WordPress.org Forum
+* Send us your translation files in your language to support [ ät ] awesome.ug
+* Translate online at https://translate.wordpress.org/
+* Send us missing translations to our WordPress.org Forum
 
 Available languages
 
@@ -27,11 +27,10 @@ Available languages
 
 This section describes how to install the plugin and get it working.
 
-e.g.
-
-1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
+1. Download the plugin
+2. Upload to wp-content/plugins/ or upload ZIP file via Plugins > Add New > Upload Plugin
+3. Activate in Plugin menu
+4. Done!
 
 == Changelog ==
 

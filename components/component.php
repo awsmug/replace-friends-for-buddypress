@@ -1,10 +1,10 @@
 <?php
 /**
- * BuddyPress_Friends_To_Contacts_Component Class
+ * Replace_Friends_For_BuddyPress_Component Class
  * Mother of all Components
  *
  * @author  awesome.ug <very@awesome.ug>, Sven Wagener <sven@awesome.ug>
- * @package BuddyPress_Friends_To_Contacts
+ * @package Replace_Friends_For_BuddyPress
  * @version 1.0.0
  * @since   1.0.0
  * @license GPL 2
@@ -25,7 +25,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-abstract class BuddyPress_Friends_To_Contacts_Component {
+abstract class Replace_Friends_For_BuddyPress_Component {
 
     /**
      * The Single instances of the components
@@ -110,7 +110,7 @@ abstract class BuddyPress_Friends_To_Contacts_Component {
         if ( WP_DEBUG ) {
             $message = $message . ' (in Module "' . $this->name . '")';
         }
-        BuddyPress_Friends_To_Contacts::admin_notice( $message, $type );
+        Replace_Friends_For_BuddyPress::admin_notice( $message, $type );
     }
 
     /**

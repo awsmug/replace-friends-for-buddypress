@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: BuddyPress friends to contacts
+ * Plugin Name: Replace friends for BuddyPress
  * Plugin URI: http://www.awesome.ug
  * Description: Change all textstrings in BuddyPress from "friends" to "contacts".
  * Version: 1.0.0
@@ -22,10 +22,10 @@
  */
 
 /**
- * BuddyPress_Friends_To_Contacts initializing class
+ * Replace_Friends_For_BuddyPress initializing class
  *
  * @author  awesome.ug, Author <support@awesome.ug>
- * @package BuddyPress_Friends_To_Contacts
+ * @package Replace_Friends_For_BuddyPress
  * @version 1.0.0
  * @since   1.0.0
  * @license GPL 2
@@ -35,7 +35,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-class BuddyPress_Friends_To_Contacts {
+class Replace_Friends_For_BuddyPress {
     /**
      * Notices for screening in admin_notices
      *
@@ -113,7 +113,7 @@ class BuddyPress_Friends_To_Contacts {
      * @since 1.0.0
      */
     public static function load_textdomain() {
-        load_plugin_textdomain( 'buddypress-friends-to-contacts', false, BPFTC_RELATIVE_FOLDER . '/languages' );
+        load_plugin_textdomain( 'replace-friends-for-buddyPress', false, BPFTC_RELATIVE_FOLDER . '/languages' );
     }
 
     /**
@@ -153,11 +153,11 @@ class BuddyPress_Friends_To_Contacts {
      * @param        $message
      * @param string $type
      *
-     * @todo Rename BuddyPress_Friends_To_Contacts
+     * @todo Rename Replace_Friends_For_BuddyPress
      */
     public static function admin_notice( $message, $type = 'updated' ) {
         self::$notices[] = array(
-            'message' => '<b>BuddyPress_Friends_To_Contacts</b>: ' . $message,
+            'message' => '<b>Replace_Friends_For_BuddyPress</b>: ' . $message,
             'type'    => $type
         );
     }
@@ -172,7 +172,7 @@ class BuddyPress_Friends_To_Contacts {
 
         if( ! function_exists( 'buddypress' ) )
         {
-            self::admin_notice( __( 'BuddyPress have to be installed.', 'buddypress-friends-to-contacts' ), 'error' );
+            self::admin_notice( __( 'BuddyPress have to be installed.', 'replace-friends-for-buddyPress' ), 'error' );
             $passed = FALSE;
         }
 
@@ -197,4 +197,4 @@ class BuddyPress_Friends_To_Contacts {
 
 }
 
-BuddyPress_Friends_To_Contacts::instance();
+Replace_Friends_For_BuddyPress::instance();

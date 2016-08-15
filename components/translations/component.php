@@ -5,7 +5,7 @@
  * This class initializes the component.
  *
  * @author  awesome.ug <support@awesome.ug>, Sven Wagener <sven@awesome.ug>
- * @package BuddyPress_Friends_To_Contacts/Admin
+ * @package Replace_Friends_For_BuddyPress/Admin
  * @version 1.0.0
  * @since   1.0.0
  * @license GPL 2
@@ -31,7 +31,7 @@ if( !defined( 'ABSPATH' ) )
 	exit;
 }
 
-class BPFTC_Translations extends BuddyPress_Friends_To_Contacts_Component
+class BPFTC_Translations extends Replace_Friends_For_BuddyPress_Component
 {
 	/**
 	 * Constructor
@@ -40,7 +40,7 @@ class BPFTC_Translations extends BuddyPress_Friends_To_Contacts_Component
 	 */
 	protected function __construct()
 	{
-		$this->name = __( 'Translations', 'buddypress-friends-to-contacts' );
+		$this->name = __( 'Translations', 'replace-friends-for-buddyPress' );
 		$this->slug = 'translations';
 	}
 
