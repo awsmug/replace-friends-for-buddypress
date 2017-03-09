@@ -16,7 +16,7 @@ class BPFTC_Translate_BuddyPress extends BPCTF_Translations {
 	 * @since 1.0.0
 	 */
 	protected function __construct() {
-		$this->name       = __( 'BuddyPress Translations', '' );
+		$this->name       = __( 'BuddyPress Translations', 'replace-friends-for-buddyPress' );
 		$this->textdomain = 'buddypress';
 	}
 
@@ -34,13 +34,16 @@ class BPFTC_Translate_BuddyPress extends BPCTF_Translations {
 			'A member sends you a friendship request'                                                                                                 => __( 'A member sends you a contact request', 'replace-friends-for-buddyPress' ),
 			'Add Friend'                                                                                                                              => __( 'Add Contact', 'replace-friends-for-buddyPress' ),
 			'All of your friends already belong to this group.'                                                                                       => __( 'All of your contacts already belong to this group.', 'replace-friends-for-buddyPress' ),
+			'Cancel Friendship'                                                                                                                       => __( 'Cancel Contact', 'replace-friends-for-buddyPress' ),
 			'Cancel Friendship Request'                                                                                                               => __( 'Cancel Contact Request', 'replace-friends-for-buddyPress' ),
 			'Counting the number of friends for each user&hellip; %s'                                                                                 => __( 'Counting the number of contacts for each user&hellip; %s', 'replace-friends-for-buddyPress' ),
 			'Default friends to show:'                                                                                                                => __( 'Default contacts to show:', 'replace-friends-for-buddyPress' ),
 			'Friends'                                                                                                                                 => __( 'Contacts', 'replace-friends-for-buddyPress' ),
 			'Friends %s'                                                                                                                              => __( 'Contacts %s', 'replace-friends-for-buddyPress' ),
 			'Friends <span class=\"%s\">%s</span>'                                                                                                    => __( 'Contacts <span class=\"%s\">%s</span>', 'replace-friends-for-buddyPress' ),
-			'Friendships'                                                                                                                             => __( 'Relationships', 'replace-friends-for-buddyPress' ),
+			'Friendships'                                                                                                                             => __( 'Contacts', 'replace-friends-for-buddyPress' ),
+			'Friendship requested'                                                                                                                    => __( 'Contact requested', 'replace-friends-for-buddyPress' ),
+			'Friendship Requested'                                                                                                                    => __( 'Contact requested', 'replace-friends-for-buddyPress' ),
 			'Group invitations can only be extended to friends.'                                                                                      => __( 'Group invitations can only be extended to contacts.', 'replace-friends-for-buddyPress' ),
 			'Max friends to show:'                                                                                                                    => __( 'Max contacts to show:', 'replace-friends-for-buddyPress' ),
 			'My Friends'                                                                                                                              => __( 'My Contacts', 'replace-friends-for-buddyPress' ),
@@ -106,7 +109,7 @@ To accept this request and manage all of your pending requests, visit: <a href="
 		);
 
 		$translations[ 'Friends screen page <title>' ] = array(
-			'Friend Connections' => _x( 'Relationships', 'Friends screen page <title>', 'replace-friends-for-buddyPress' ),
+			'Friend Connections' => _x( 'Relationships', 'Friends screen page', 'replace-friends-for-buddyPress' ),
 		);
 
 		$translations[ 'Friend settings on notification settings page' ] = array(
@@ -135,8 +138,6 @@ To accept this request and manage all of your pending requests, visit: <a href="
 		$translations[ 'Visibility level setting' ] = array(
 			'My Friends' => _x( 'My Contacts', 'Visibility level setting', 'replace-friends-for-buddyPress' )
 		);
-
-
 
 		return $translations;
 	}
