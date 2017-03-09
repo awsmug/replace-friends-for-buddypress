@@ -85,17 +85,10 @@ abstract class BPCTF_Translations {
 	    if ( ! array_key_exists( $context, $this->translations ) ) {
 		    return $translation;
 	    }
-	    FB::log( '====================' );
-
-	    FB::log( $text );
-	    FB::log( $context );
 
 	    if ( ! array_key_exists( $text, $this->translations[ $context ] ) ) {
 		    return $translation;
 	    }
-
-	    FB::log( $this->translations[ $context ][ $text ] );
-
 
 	    return $this->translations[ $context ][ $text ];
     }
