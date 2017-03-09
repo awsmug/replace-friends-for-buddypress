@@ -53,6 +53,7 @@ class BPFTC_Translations extends Replace_Friends_For_BuddyPress_Component
 	{
         require_once ( dirname( __FILE__ ) . '/abstract/translation-class.php' );
         require_once ( dirname( __FILE__ ) . '/buddypress.php' );
+        require_once ( dirname( __FILE__ ) . '/buddyboss-wall.php' );
 	}
 }
 
