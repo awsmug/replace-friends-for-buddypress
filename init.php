@@ -60,10 +60,8 @@ class Replace_Friends_For_BuddyPress {
      */
     private function __construct() {
         self::constants();
-        self::includes();
-        self::load_components();
-        self::load_textdomain();
 
+        add_action( 'plugins_loaded', array( $this, 'load_textdomain' ) );
         add_action( 'plugins_loaded', array( $this, 'check_requirements' ) );
         add_action( 'plugins_loaded', array( $this, 'load_components' ) );
 
@@ -82,15 +80,6 @@ class Replace_Friends_For_BuddyPress {
         define( 'BPFTC_RELATIVE_FOLDER', substr( BPFTC_FOLDER, strlen( WP_PLUGIN_DIR ), strlen( BPFTC_FOLDER ) ) );
         define( 'BPFTC_URLPATH', plugin_dir_url( __FILE__ ) );
         define( 'BPFTC_COMPONENTFOLDER', BPFTC_FOLDER . '/components' );
-    }
-
-    /**
-     * Getting include files
-     *
-     * @since 1.0.0
-     */
-    public static function includes() {
-        require_once( BPFTC_FOLDER . '/functions.php' );
     }
 
     /**
@@ -113,7 +102,8 @@ class Replace_Friends_For_BuddyPress {
      * @since 1.0.0
      */
     public static function load_textdomain() {
-        load_plugin_textdomain( 'replace-friends-for-buddyPress', false, BPFTC_RELATIVE_FOLDER . '/languages' );
+	    $loc = get_locale();
+    	load_plugin_textdomain( 'replace-friends-for-buddyPress' );
     }
 
     /**
